@@ -10,6 +10,9 @@
  * Some board init for the Allwinner A10-evb board.
  */
 
+ // We don't need to create a custom board.c for Nanopi Neo H3.
+ // This also means we don't need to create a new Kconfig under board/friendlyElec/nanopi-h3/KConfig
+
 #include <clock_legacy.h>
 #include <dm.h>
 #include <env.h>
